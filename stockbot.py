@@ -81,7 +81,7 @@ async def on_message(message):
                     await message.channel.send('Average 10 Day Volume: ${}'.format(avgVol10))
                     await message.channel.send('Average Daily 10 Day Volume: ${}'.format(avgDailyVol10))
                     await message.channel.send('Average Volume: ${}'.format(avgVol))
-
+                    await message.channel.send('Volume: ${}'.format(volume))
 
 
 
